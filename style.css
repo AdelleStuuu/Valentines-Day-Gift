@@ -8,6 +8,44 @@ body {
     
 }
 
+/*buttons*/
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #FF66CC;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF99FF;
+}
+
+#nextButton {
+    visibility: visible;
+    position: absolute;
+}
+
+#noButton {
+    visibility: hidden;
+}
+
+#yesButton {
+    visibility: hidden;
+}
+
+/*Content*/
+
+img {
+    width: 100%;
+    height: auto;
+    border-color: #FF66CC;
+    border-style: solid;
+}
+
 div {
     width: 40%;
     margin: 20% auto;
