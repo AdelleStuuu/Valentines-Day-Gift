@@ -9,7 +9,7 @@ body {
 }
 
 /*buttons*/
-button {
+.divBtn {
     padding: 10px 20px;
     font-size: 1.2em;
     border: none;
@@ -37,7 +37,21 @@ button:hover {
     visibility: hidden;
 }
 
+.audioBtn {
+    border: none;
+    background-color: #FF66CC;
+    color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 /*Content*/
+
+.audioImg {
+    height: auto;
+    border-style: none;
+}
 
 img {
     width: 100%;
@@ -48,7 +62,7 @@ img {
 
 div {
     width: 40%;
-    margin: 20% auto;
+    margin: 10% auto;
     padding: 20px;
     background-color: pink !important;
     text-align: center;

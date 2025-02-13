@@ -6,16 +6,23 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
 </head>
 <body>
+    <audio id="audio" >
+        <source src="audio/Yippe.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <div>
         <h1>Happy Valentines Day!</h1>
         <img id= "AdelleImage" src="Images/Adelle Sprites/1.png" alt="AdelleSprite">
         <p id="speechBubble">Happy Valentines! Its so insane that we're close to a year, no?</p>
-        <button id="nextButton" onclick="changeImage('next')">Next</button>
-        <button id="yesButton" onclick="sheChoseYes()">Yes</button>
-        <button id="noButton" onclick="sheChoseNo()">No</button>
+        <button class="divBtn" id="nextButton" onclick="changeImage('next')">Next</button>
+        <button class="divBtn" id="yesButton" onclick="sheChoseYes()">Yes</button>
+        <button class="divBtn" id="noButton" onclick="sheChoseNo()">No</button>
+        
     </div>
     
-
+    
 </body> 
