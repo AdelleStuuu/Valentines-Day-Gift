@@ -1,3 +1,46 @@
+/*mobile style*/
 body {
+    width: 100%;
     background-image: url(Images/catWallpaper.jpg);
+    background-repeat: repeat;
+    color: azure;
+    /*remove text overflow*/
+    
+}
+
+div {
+    width: 40%;
+    margin: 20% auto;
+    padding: 20px;
+    background-color: pink !important;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size:1.2em;
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
 }
